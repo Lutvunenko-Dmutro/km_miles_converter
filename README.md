@@ -66,10 +66,10 @@ flutter run
 - Миттєва зміна тем.
 
 ### 👥 Розробники (Maintainers)
-[@Lutvunenko-Dmutro](https://github.com/Lutvunenko-Dmutro)
+[Dmytro Lytvynenko](https://github.com/Lutvunenko-Dmutro)
 
 ### 📄 Ліцензія (License)
-[MIT](LICENSE) © Dmutro Lutvunenko
+[MIT](LICENSE) © Dmytro Lytvynenko
 
 ---
 
@@ -121,7 +121,7 @@ flutter run
 - Seamlessly switch between dark and light themes directly from the app bar.
 
 ### 👥 Maintainers
-[@Lutvunenko-Dmutro](https://github.com/Lutvunenko-Dmutro)
+[Dmytro Lytvynenko](https://github.com/Lutvunenko-Dmutro)
 
 ### 📄 License
-[MIT](LICENSE) © Dmutro Lutvunenko
+[MIT](LICENSE) © Dmytro Lytvynenko
