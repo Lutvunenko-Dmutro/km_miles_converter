@@ -68,9 +68,6 @@ flutter run
 ### 👥 Розробники (Maintainers)
 [@Lutvunenko-Dmutro](https://github.com/Lutvunenko-Dmutro)
 
-### 🤝 Внесок (Contributing)
-Будемо раді вашій допомозі! Відкривайте Issue або надсилайте PR для нових функцій чи виправлення багів.
-
 ### 📄 Ліцензія (License)
 [MIT](LICENSE) © Dmutro Lutvunenko
 
@@ -125,9 +122,6 @@ flutter run
 
 ### 👥 Maintainers
 [@Lutvunenko-Dmutro](https://github.com/Lutvunenko-Dmutro)
-
-### 🤝 Contributing
-Feel free to dive in! Open an issue or submit PRs to propose new features or bug fixes.
 
 ### 📄 License
 [MIT](LICENSE) © Dmutro Lutvunenko
