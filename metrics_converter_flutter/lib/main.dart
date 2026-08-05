@@ -1,33 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'providers/theme_provider.dart';
+import 'providers/converter_provider.dart';
 import 'ui/converter_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => ThemeProvider()),
+        ChangeNotifierProvider(create: (_) => ConverterProvider()),
+      ],
+      child: const MyApp(),
+    ),
+  );
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  _MyAppState createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  bool _isDarkMode = false;
-
-  @override
   Widget build(BuildContext context) {
+    final themeProvider = Provider.of<ThemeProvider>(context);
+
     return MaterialApp(
       title: 'Конвертор одиниць',
-      theme: _isDarkMode ? ThemeData.dark() : ThemeData.light(),
-      home: Converter(
-        isDarkMode: _isDarkMode,
-        toggleTheme: () {
-          setState(() {
-            _isDarkMode = !_isDarkMode;
-          });
-        },
-      ),
+      theme: themeProvider.isDarkMode ? ThemeData.dark() : ThemeData.light(),
+      home: const Converter(),
     );
   }
 }
